@@ -1,0 +1,80 @@
+body {
+    background-image: url("Acer_Wallpaper_02_3840x2400.jpg");
+    color: aliceblue;
+    text-align: center;
+}
+
+.hr {
+    margin-left: 12%;
+    width: 1080px;
+    height: 0;
+}
+
+h6 {
+    margin: 20px;
+    font-size: x-large;
+    text-shadow: 50px 50px 50px rgb(21, 21, 190);
+
+}
+
+input {
+    width: 10%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 13px;
+    border: darkblue;
+    box-shadow: 9px 9px 3px 2px darkblue;
+}
+
+button {
+    padding: 10px;
+    background-color: blue;
+    color: bisque;
+    border-radius: 5px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    box-shadow: 1px 1px 3px 1px;
+    margin-left: 10px;
+}
+
+#number {
+    width: 15%;
+    box-shadow: 8px 3px 3px 2px darkblue;
+}
+
+#click-me {
+    background-color: transparent;
+    margin: 20px;
+}
+
+#click-me:hover {
+    font-size: medium;
+}
+
+#instruction {
+    display: none;
+}
+
+li {
+    font-size: large;
+    text-align: left;
+    margin-left: 20%;
+}
+
+ul:hover {
+    padding: 2%;
+    background: rgb(22, 111, 189);
+}
+
+#range {
+    width: 100%;
+    padding: 0%;
+    font-size: large;
+}
+
+#status {
+    padding: 1%;
+    margin-bottom: 0;
+    color: white;
+    font-size: 20px;
+}

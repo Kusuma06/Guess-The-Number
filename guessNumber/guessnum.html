@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="guessnum.css">
+</head>
+
+<body>
+    <h1>Guess The Number</h1>
+
+    <div class="hr">
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    </div>
+    <h6>Give a range and click on fix target</h6>
+    <div class="input">
+        <input id="initial" type="number" placeholder="1">
+        <input id="final" type="number" placeholder="100">
+        <button id="target" onclick="setTarget()">Fix Target</button>
+    </div>
+    <p id="range"></p>
+    <h6>Guess my number</h6>
+    <div class="input">
+        <input id="guess">
+        <button onclick="checkGuess()">Guess</button>
+    </div>
+    <p id="status"></p>
+    <br> <br>
+    <h6>Do you wanna read game instructions?<br>
+        <button id="click-me" onclick="instructions()">Click me</button>
+    </h6>
+
+    <div id="instruction">
+        <h2>Instructions</h2>
+        <ul>
+            <li> Enter the range of numbers you want the target number to be between, and press New Target.</li>
+            <li> Enter your guess.</li>
+            <li> See if your guess is too high or too low.</li>
+            <li> Change your guess.</li>
+            <li> The app will tell you when you are right, and how many guesses you had.</li>
+            <p style=" text-decoration: underline;">
+            <h1>Note:</h1>Number chances to guess are 10.
+            </p>>
+        </ul>
+    </div>
+</body>
+<script src="guessnum.js"></script>
+
+</html>
